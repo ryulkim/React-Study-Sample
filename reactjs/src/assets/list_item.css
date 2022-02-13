@@ -1,3 +1,41 @@
 #item>span{
     display: block;
 }
+
+#item>img{
+    width: 300px;
+}
+
+#items{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 4vw;
+}
+
+#des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_title{
+    line-height: 22px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+}
+
+.item_des{
+    color: #8f8f8f;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.item_price{
+    color:#333;
+    font-size: 16px;
+    display: block;
+    line-height: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,15 @@
+#list_menu>button{
+    color: #8f8f8f;
+    font-size: 14px;
+    padding: 0 16px;
+    background-color: transparent;
+    border: 0;
+}
+
+#list_menu>button:hover{
+    color: #000;
+}
+
+#title{
+    border-bottom: 2px solid #000;
+}

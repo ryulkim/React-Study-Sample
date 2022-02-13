@@ -13,6 +13,11 @@
     left: 4vw;
 }
 
+#item{
+    position: relative;
+    overflow: hidden;
+}
+
 #des{
     display: flex;
     flex-direction: column;
@@ -38,4 +43,25 @@
     display: block;
     line-height: 30px;
     margin-top: 10px;
+}
+
+#img{
+    margin: 2px;
+    width: 75px;
+}
+
+#icon{
+    position: absolute;
+    left:0;
+    top:-20%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#item:hover>#icon{
+    position: absolute;
+    top:40px;
 }

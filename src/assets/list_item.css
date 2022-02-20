@@ -1,0 +1,67 @@
+#item>span{
+    display: block;
+}
+
+#item>img{
+    width: 300px;
+}
+
+#items{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 4vw;
+}
+
+#item{
+    position: relative;
+    overflow: hidden;
+}
+
+#des{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item_title{
+    line-height: 22px;
+    color: #333;
+    display: block;
+    font-size: 16px;
+}
+
+.item_des{
+    color: #8f8f8f;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.item_price{
+    color:#333;
+    font-size: 16px;
+    display: block;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+#img{
+    margin: 2px;
+    width: 75px;
+}
+
+#icon{
+    position: absolute;
+    left:0;
+    top:-20%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#item:hover>#icon{
+    position: absolute;
+    top:40px;
+}
